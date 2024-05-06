@@ -1,0 +1,159 @@
+/* Footer Design Start */
+footer {
+  background: var(--dark-blue);
+  padding: 50px 0 0;
+}
+
+.about-us h2 {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.about-us p {
+  color: #9fa2ce !important;
+}
+
+.opening-content h2 {
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.opening-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.opening-content ul li {
+  color: #9fa2ce;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.box-icon {
+  height: 80px;
+  background: #5f2ded;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-icon i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.list-item-design h2 {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.list-item-design ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.list-item-design ul li a {
+  position: relative;
+  color: #9fa2ce;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  line-height: 29px;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+}
+
+.list-item-design ul li a:hover {
+  color: var(--background-color);
+}
+
+.list-item-design ul li a::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0%;
+  background: var(--background-color);
+  left: 0;
+  bottom: -5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.list-item-design ul li a:hover::before {
+  width: 100%;
+}
+
+.list-item-contact h2 {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.list-item-contact ul li a {
+  display: flex;
+  position: relative;
+  color: #9fa2ce;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+  flex-direction: row;
+  align-items: start;
+  gap: 10px;
+}
+
+.list-item-contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.list-item-contact ul li a i {
+  margin-top: 8px;
+}
+
+.footer-logo img {
+  width: 68%;
+}
+
+.footer-social ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-social ul li a i {
+  height: 40px;
+  width: 40px;
+  background: #252741;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-social ul li a i:hover {
+  background: var(--background-color);
+}
+
+.reserved p {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.border-top {
+  border-top: 1px solid #fff;
+}

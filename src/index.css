@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #f2277e;
+  --background-color: #5f2ded;
+  --black-color: #000000;
+  --dark-blue: #0c0e2b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Hind", sans-serif;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
