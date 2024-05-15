@@ -6,6 +6,7 @@ import Hero from "./Hero";
 import "./Home.css";
 import Partners from "./Partners";
 import Service from "./Service";
+import Testimonials from "./Testimonials";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Service />
       <Courses />
       <Contact />
+      <Testimonials />
     </>
   );
 };
