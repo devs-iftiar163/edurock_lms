@@ -1,4 +1,5 @@
 import About from "./About";
+import Blog from "./Blog";
 import Contact from "./Contact";
 import Counter from "./Counter";
 import Courses from "./Courses";
@@ -19,6 +20,7 @@ const Home = () => {
       <Courses />
       <Contact />
       <Testimonials />
+      <Blog />
     </>
   );
 };

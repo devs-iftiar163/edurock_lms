@@ -1,46 +1,94 @@
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import reviewImage from "../../../public/about_5.png";
 
 const Owl = () => {
+  const options = {
+    items: 2,
+    nav: true,
+    rewind: true,
+    autoplay: true,
+    slideBy: 1,
+    dots: true,
+    loop: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 1,
+      },
+    },
+  };
   return (
     <>
-      <OwlCarousel className="owl-theme" loop margin={10} nav>
+      <OwlCarousel className="owl-theme" options={options}>
         <div class="item">
-          <h4>1</h4>
+          <div className="testimonial-content">
+            <div className="testimonials-icon">
+              <i className="fa-solid fa-quote-left"></i>
+            </div>
+            <div className="content-box">
+              <p>
+                “The other hand we denounce righteou indg ation men who are so
+                beguiled and demoraliz by the the mo ment.Dislike men who so
+                development co”
+              </p>
+            </div>
+            <div className="author-box">
+              <img src={reviewImage} alt="Client" />
+              <div className="designation">
+                <h4>Robind Jon</h4>
+                <p>Desginer TechBoot</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="item">
-          <h4>2</h4>
+          <div className="testimonial-content">
+            <div className="testimonials-icon">
+              <i className="fa-solid fa-quote-left"></i>
+            </div>
+            <div className="content-box">
+              <p>
+                “The other hand we denounce righteou indg ation men who are so
+                beguiled and demoraliz by the the mo ment.Dislike men who so
+                development co”
+              </p>
+            </div>
+            <div className="author-box">
+              <img src={reviewImage} alt="Client" />
+              <div className="designation">
+                <h4>Robind Jon</h4>
+                <p>Desginer TechBoot</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="item">
-          <h4>3</h4>
-        </div>
-        <div class="item">
-          <h4>4</h4>
-        </div>
-        <div class="item">
-          <h4>5</h4>
-        </div>
-        <div class="item">
-          <h4>6</h4>
-        </div>
-        <div class="item">
-          <h4>7</h4>
-        </div>
-        <div class="item">
-          <h4>8</h4>
-        </div>
-        <div class="item">
-          <h4>9</h4>
-        </div>
-        <div class="item">
-          <h4>10</h4>
-        </div>
-        <div class="item">
-          <h4>11</h4>
-        </div>
-        <div class="item">
-          <h4>12</h4>
+          <div className="testimonial-content">
+            <div className="testimonials-icon">
+              <i className="fa-solid fa-quote-left"></i>
+            </div>
+            <div className="content-box">
+              <p>
+                “The other hand we denounce righteou indg ation men who are so
+                beguiled and demoraliz by the the mo ment.Dislike men who so
+                development co”
+              </p>
+            </div>
+            <div className="author-box">
+              <img src={reviewImage} alt="Client" />
+              <div className="designation">
+                <h4>Robind Jon</h4>
+                <p>Desginer TechBoot</p>
+              </div>
+            </div>
+          </div>
         </div>
       </OwlCarousel>
     </>

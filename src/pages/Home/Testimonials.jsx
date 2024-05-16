@@ -1,4 +1,5 @@
 import Owl from "./Owl";
+import reviewImage from "../../../public/about_5.png";
 
 const Testimonials = () => {
   return (
@@ -20,26 +21,48 @@ const Testimonials = () => {
               </div>
             </div>
             {/* Clients Reviews */}
-            <div className="col-lg-4">
-              <Owl />
-            </div>
-            <div className="col-lg-4">
-              <div className="testimonial-content">
-                <div className="testimonials-icon">
-                  <i className="fa-solid fa-quote-left"></i>
+            <div className="col-lg-8">
+              <div className="row">
+                <div className="col-lg-6">
+                  <div className="testimonial-content">
+                    <div className="testimonials-icon">
+                      <i className="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div className="content-box">
+                      <p>
+                        “The other hand we denounce righteou indg ation men who
+                        are so beguiled and demoraliz by the the mo ment.Dislike
+                        men who so development co”
+                      </p>
+                    </div>
+                    <div className="author-box">
+                      <img src={reviewImage} alt="Client" />
+                      <div className="designation">
+                        <h4>Robind Jon</h4>
+                        <p>Desginer TechBoot</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="content-box">
-                  <p>
-                    “The other hand we denounce righteou indg ation men who are
-                    so beguiled and demoraliz by the the mo ment.Dislike men who
-                    so development co”
-                  </p>
-                </div>
-                <div className="author-box">
-                  <img src="" alt="" />
-                  <div className="designation">
-                    <h4>Robind Jon</h4>
-                    <p>Desginer TechBoot</p>
+                <div className="col-lg-6">
+                  <div className="testimonial-content">
+                    <div className="testimonials-icon">
+                      <i className="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div className="content-box">
+                      <p>
+                        “The other hand we denounce righteou indg ation men who
+                        are so beguiled and demoraliz by the the mo ment.Dislike
+                        men who so development co”
+                      </p>
+                    </div>
+                    <div className="author-box">
+                      <img src={reviewImage} alt="Client" />
+                      <div className="designation">
+                        <h4>Robind Jon</h4>
+                        <p>Desginer TechBoot</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
