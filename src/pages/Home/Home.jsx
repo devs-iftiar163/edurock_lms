@@ -5,6 +5,7 @@ import Counter from "./Counter";
 import Courses from "./Courses";
 import Hero from "./Hero";
 import "./Home.css";
+import Newsletter from "./Newsletter";
 import Partners from "./Partners";
 import Service from "./Service";
 import Testimonials from "./Testimonials";
@@ -21,6 +22,7 @@ const Home = () => {
       <Contact />
       <Testimonials />
       <Blog />
+      <Newsletter />
     </>
   );
 };

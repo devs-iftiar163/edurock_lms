@@ -22,10 +22,52 @@ const Blog = () => {
                 </div>
                 <div className="blog-content">
                   <Link>
-                    <h4>
+                    <h2>
                       It is a long established fact that a reader will be
                       Standard Part
-                    </h4>
+                    </h2>
+                  </Link>
+                  <p>
+                    A wonderful serenity has taken possssion of my entire souing
+                    like these sweet morning spring whch enjoy with my whole
+                    heart I am alone,
+                  </p>
+                  <button className="read-more">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="blog-card">
+                <div className="feature-image">
+                  <img src={blogImage} alt="" />
+                </div>
+                <div className="blog-content">
+                  <Link>
+                    <h2>
+                      It is a long established fact that a reader will be
+                      Standard Part
+                    </h2>
+                  </Link>
+                  <p>
+                    A wonderful serenity has taken possssion of my entire souing
+                    like these sweet morning spring whch enjoy with my whole
+                    heart I am alone,
+                  </p>
+                  <button className="read-more">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="blog-card">
+                <div className="feature-image">
+                  <img src={blogImage} alt="" />
+                </div>
+                <div className="blog-content">
+                  <Link>
+                    <h2>
+                      It is a long established fact that a reader will be
+                      Standard Part
+                    </h2>
                   </Link>
                   <p>
                     A wonderful serenity has taken possssion of my entire souing
