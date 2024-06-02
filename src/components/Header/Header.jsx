@@ -68,43 +68,63 @@ const Header = () => {
 
             {/* Mobile Menu */}
             <div className="mobile-menu">
-              <div className="col-lg-12 col-md-12 col-sm-12">
-                <nav className="navbar navbar-expand-lg navbar-light">
-                  <div className="container-fluid">
-                    <Link className="navbar-brand" to={"/"}>
-                      Navbar
+              <div className="col-md-4 col-sm-4">
+                <Link to={"#"}>
+                  <img src={logo} alt="" />
+                </Link>
+              </div>
+              <div className="col-md-8 col-sm-8">
+                <div className="menu-bar">
+                  <div className="cart-menu">
+                    <Link to={"#"} className="cart-item">
+                      <span className="bubble">0</span>
+                      <i className="fa-solid fa-cart-shopping"></i>
                     </Link>
-                    <button
-                      className="navbar-toggler"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#navbarSupportedContent"
-                      aria-controls="navbarSupportedContent"
-                      aria-expanded="false"
-                      aria-label="Toggle navigation"
-                    >
-                      <span className="navbar-toggler-icon" />
-                    </button>
-                    <div
-                      className="collapse navbar-collapse"
-                      id="navbarSupportedContent"
-                    >
-                      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                          <a
-                            className="nav-link active"
-                            aria-current="page"
-                            href="#"
-                          >
-                            Home
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
-                </nav>
+                  <div className="menu-button">
+                    <button
+                      className="menu-toggle-button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      <i class="fa-solid fa-bars fa-fw"></i>
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
+
+            {/* Modal */}
+
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6">
+                  <div
+                    className="modal fade"
+                    id="exampleModal"
+                    tabIndex={-2}
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div className="modal-dialog">
+                      <div className="modal-content">
+                        <div className="modal-header">
+                          <img src={logo} alt="" />
+                          <button
+                            className="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div className="modal-body"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Modal */}
           </div>
         </div>
       </header>
