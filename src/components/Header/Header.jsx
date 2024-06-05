@@ -116,7 +116,27 @@ const Header = () => {
                             aria-label="Close"
                           ></button>
                         </div>
-                        <div className="modal-body"></div>
+                        <div className="modal-body">
+                          <div className="toggle-menu">
+                            <ul>
+                              <li>
+                                <Link to={"/"}>Home</Link>
+                              </li>
+                              <li>
+                                <Link to={"/"}>About Us</Link>
+                              </li>
+                              <li>
+                                <Link to={"/"}>Courses</Link>
+                              </li>
+                              <li>
+                                <Link to={"/"}>Contact Us</Link>
+                              </li>
+                              <li>
+                                <Link to={"/"}>My Account</Link>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
