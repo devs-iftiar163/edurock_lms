@@ -341,6 +341,40 @@
   margin: 0;
 }
 
+/* Tablet Responsive */
+@media (min-width: 768px) and (max-width: 850px) {
+  .image-container {
+    padding-left: 80px;
+  }
+  .image-container .sub-image {
+    bottom: -35px;
+    left: 365px;
+    z-index: 99;
+  }
+
+  .image-container .vector-image {
+    left: -15px;
+  }
+
+  .image-container .moving-vector {
+    left: 35px;
+  }
+
+  .experience-content {
+    width: 43%;
+    margin-left: 90px;
+    margin-bottom: -15px;
+  }
+
+  .about-content {
+    margin-top: 80px;
+  }
+}
+
+/* Mobile Responsive  */
+@media (max-width: 767px) {
+}
+
 /* About Section End */
 
 /* Counter Section Start */
