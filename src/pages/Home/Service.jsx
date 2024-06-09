@@ -28,9 +28,9 @@ const Service = () => {
             </div>
             {/* Service Content Right */}
             <div className="col-lg-6">
-              <div className="row">
+              <div className="row extra-margin">
                 {/* Left Box */}
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-md-6 col-sm-6">
                   <div className="box-one">
                     <img src={svgIcon} alt="" />
                     <h2>Business Studies</h2>
@@ -49,7 +49,7 @@ const Service = () => {
                   </div>
                 </div>
                 {/* Right Box */}
-                <div className="col-lg-6 my-4">
+                <div className="col-lg-6 col-md-6 col-sm-6 my-4">
                   <div className="box-one">
                     <img src={book} alt="" />
                     <h2>Artist & Design</h2>

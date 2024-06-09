@@ -10,7 +10,7 @@ const Counter = () => {
       <section className="counter-section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-3 col-sm-3">
               <div className="achievement">
                 <img src={achieve} alt="image" />
                 <div className="a-content">
@@ -21,7 +21,7 @@ const Counter = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-3 col-sm-3">
               <div className="achievement">
                 <img src={student} alt="image" />
                 <div className="a-content">
@@ -32,7 +32,7 @@ const Counter = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-3 col-sm-3">
               <div className="achievement">
                 <img src={instractor} alt="image" />
                 <div className="a-content">
@@ -43,7 +43,7 @@ const Counter = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-3 col-sm-3">
               <div className="achievement">
                 <img src={world} alt="image" />
                 <div className="a-content">
