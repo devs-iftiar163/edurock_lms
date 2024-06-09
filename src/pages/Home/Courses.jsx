@@ -17,7 +17,7 @@ const Courses = () => {
           </div>
           {/* Course List */}
           <div className="row g-5">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="course-list">
                 <div className="course-image">
                   <img className="w-100" src={courseImage} alt="Image" />
@@ -50,7 +50,7 @@ const Courses = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="course-list">
                 <div className="course-image">
                   <img className="w-100" src={courseImage} alt="Image" />
@@ -83,7 +83,7 @@ const Courses = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="course-list">
                 <div className="course-image">
                   <img className="w-100" src={courseImage} alt="Image" />
@@ -116,7 +116,7 @@ const Courses = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="course-list">
                 <div className="course-image">
                   <img className="w-100" src={courseImage} alt="Image" />
@@ -149,7 +149,7 @@ const Courses = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="course-list">
                 <div className="course-image">
                   <img className="w-100" src={courseImage} alt="Image" />
@@ -182,7 +182,7 @@ const Courses = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="course-list">
                 <div className="course-image">
                   <img className="w-100" src={courseImage} alt="Image" />

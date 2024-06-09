@@ -581,7 +581,13 @@
     padding: 50px 0 0;
   }
   .service-content-left h4 {
-    width: 23%;
+    width: 40%;
+  }
+
+  .service-content-left h2 {
+    margin: 15px 0 25px;
+    font-size: 40px;
+    line-height: 45px;
   }
 
   .box-one {
@@ -715,6 +721,29 @@
   justify-content: start;
   align-items: center;
   gap: 10px;
+}
+
+/* Tablet Responsive */
+@media (min-width: 768px) and (max-width: 850px) {
+  .course-head h4 {
+    width: 20%;
+  }
+
+  .course-image h4 {
+    width: 42%;
+  }
+}
+
+/* Mobile Responsive  */
+@media (min-width: 360px) and (max-width: 767px) {
+  .course-head h4 {
+    width: 32%;
+  }
+
+  .course-head h2 {
+    margin: 15px 0 25px;
+    font-size: 40px;
+  }
 }
 
 /* Course Section End */
@@ -877,6 +906,49 @@
   line-height: 30px;
   border-radius: 4px;
 }
+
+/* Tablet Responsive */
+@media (min-width: 768px) and (max-width: 850px) {
+  .contact-content h4 {
+    width: 21%;
+  }
+
+  .play-content .play {
+    height: 76px;
+    width: 100px;
+  }
+
+  .contact-form {
+    margin-top: 50px;
+  }
+}
+
+/* Mobile Responsive  */
+@media (min-width: 360px) and (max-width: 767px) {
+  .contact-content h4 {
+    width: 36%;
+  }
+
+  .contact-content h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .play-text h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .play-content .play {
+    height: 55px;
+    width: 100px;
+  }
+
+  .contact-form {
+    margin-top: 50px;
+  }
+}
+
 /* Contact Section End */
 
 /* Testimonial Sections Start */
