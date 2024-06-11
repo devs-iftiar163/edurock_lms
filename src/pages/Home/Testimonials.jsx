@@ -22,8 +22,8 @@ const Testimonials = () => {
             </div>
             {/* Clients Reviews */}
             <div className="col-lg-8">
-              <div className="row">
-                <div className="col-lg-6">
+              <div className="row margin-xl">
+                <div className="col-lg-6 col-md-6 col-sm-6">
                   <div className="testimonial-content">
                     <div className="testimonials-icon">
                       <i className="fa-solid fa-quote-left"></i>
@@ -44,8 +44,8 @@ const Testimonials = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6">
-                  <div className="testimonial-content">
+                <div className="col-lg-6 col-md-6 col-sm-6">
+                  <div className="testimonial-content margin-xlm">
                     <div className="testimonials-icon">
                       <i className="fa-solid fa-quote-left"></i>
                     </div>

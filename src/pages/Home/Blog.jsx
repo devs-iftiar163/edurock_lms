@@ -7,7 +7,7 @@ const Blog = () => {
       <section className="blog-section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12">
+            <div className="col-lg-12 col-md-12 col-sm-12">
               <div className="blog-heading">
                 <h4>News & Blogs</h4>
                 <h2>Leatest News & Blog</h2>
@@ -15,7 +15,7 @@ const Blog = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4 col-sm-4">
               <div className="blog-card">
                 <div className="feature-image">
                   <img src={blogImage} alt="" />
@@ -36,7 +36,7 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4 col-sm-4 guter-x">
               <div className="blog-card">
                 <div className="feature-image">
                   <img src={blogImage} alt="" />
@@ -57,7 +57,7 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-4 col-sm-4 guter-x">
               <div className="blog-card">
                 <div className="feature-image">
                   <img src={blogImage} alt="" />
