@@ -1,4 +1,5 @@
 import Layouts from "../components/Layouts/Layouts";
+import Aboutus from "../pages/About/Aboutus";
 import Home from "../pages/Home/Home";
 
 const publicRouter = [
@@ -8,6 +9,10 @@ const publicRouter = [
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/about-us",
+        element: <Aboutus />,
       },
     ],
   },

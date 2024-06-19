@@ -1,0 +1,104 @@
+/* About Hero Breadcumb Section Start */
+.about-pagination {
+  background: var(--dark-purple);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-hero-content h2 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 72px;
+  color: var(--primary-color);
+}
+
+.pagination ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pagination li a {
+  color: var(--primary-color);
+}
+
+.pagination li i {
+  color: var(--primary-color);
+}
+
+.pagination li p {
+  margin: 0px;
+}
+
+/* About Hero Breadcumb Section End */
+
+/* Hero Section Start */
+.about-hero-section {
+  background: var(--dark-blue);
+  padding: 100px 0;
+}
+
+.hero-image {
+  background: url(../../../public/about_8.png) no-repeat top center;
+}
+
+.about-banner-content h4 {
+  width: 20%;
+  padding: 10px 20px 7px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 500;
+  color: var(--background-color);
+  background: #fff;
+  letter-spacing: 0;
+}
+
+.about-banner-content h2 {
+  font-size: 45px;
+  line-height: 54px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.badge-box {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.badge-content p {
+  font-size: 18px;
+}
+
+.badge-content span {
+  font-weight: 700;
+}
+
+.about-hero-button {
+  padding: 10px 25px;
+  margin-top: 20px;
+  background: var(--background-color);
+  border: 1px solid var(--background-color);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.about-hero-button:hover {
+  background: transparent;
+  border: 1px solid var(--background-color);
+}
+
+/* Hero Section End */
