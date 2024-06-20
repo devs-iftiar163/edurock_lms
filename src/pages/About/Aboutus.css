@@ -102,3 +102,37 @@
 }
 
 /* Hero Section End */
+
+/* Instructors Section Start */
+.instructor-section {
+  padding: 100px 0;
+  background: var(--dark-blue);
+}
+
+.ins-heading h2 {
+  font-size: 45px;
+  line-height: 54px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.ins-button {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.ins-button-des {
+  padding: 10px 25px;
+  margin-top: 20px;
+  background: var(--background-color);
+  border: 1px solid var(--background-color);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.ins-button-des:hover {
+  background: transparent;
+  border: 1px solid var(--background-color);
+}
+/* Instructors Section End */
