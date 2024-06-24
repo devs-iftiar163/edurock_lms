@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const AboutHeader = () => {
   return (
     <>
-      <section className="about-pagination ">
+      <section className="about-pagination">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 ">

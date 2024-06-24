@@ -14,7 +14,7 @@ const AboutHeroSection = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="about-banner-content">
+              <div className="about-banner-content custom-mt">
                 <h4>About us</h4>
                 <h2>Welcome to the online Learning Center</h2>
                 <p>

@@ -40,6 +40,33 @@
   margin: 0px;
 }
 
+/* Tablet Responsive */
+@media (min-width: 768px) and (max-width: 850px) {
+  .about-pagination {
+    height: 45vh;
+  }
+
+  .about-hero-content h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .custom-mt {
+    margin-top: 30px;
+  }
+}
+
+/* Mobile Responsive  */
+@media (min-width: 360px) and (max-width: 767px) {
+  .about-pagination {
+    height: 35vh;
+  }
+
+  .about-hero-content h2 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
+
 /* About Hero Breadcumb Section End */
 
 /* Hero Section Start */
@@ -99,6 +126,39 @@
 .about-hero-button:hover {
   background: transparent;
   border: 1px solid var(--background-color);
+}
+
+/* Tablet Responsive */
+@media (min-width: 768px) and (max-width: 850px) {
+  .about-hero-section {
+    background: var(--dark-blue);
+    padding: 50px 0 15px;
+  }
+}
+
+/* Mobile Responsive  */
+@media (min-width: 360px) and (max-width: 767px) {
+  .about-hero-section {
+    background: var(--dark-blue);
+    padding: 50px 0 0;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+
+  .about-banner-content h4 {
+    width: 26%;
+  }
+
+  .about-banner-content h2 {
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  .custom-mt {
+    margin-top: 30px;
+  }
 }
 
 /* Hero Section End */
