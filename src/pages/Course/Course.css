@@ -1,0 +1,86 @@
+/* Course Listing Start */
+.course-listings {
+  padding: 100px 0;
+  background: var(--dark-blue);
+}
+
+.search-main-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid var(--border);
+}
+
+.search-count {
+  width: 50%;
+}
+
+.search-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 20px;
+  width: 50%;
+}
+
+.list-style-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+
+.list-style-icon a {
+  color: #fff;
+}
+
+.sorting-box {
+  width: 50%;
+}
+
+.sorting-box select {
+  width: 100%;
+}
+
+/* Filter Wrap Start */
+
+/* Search Bar */
+.search-bar {
+  padding: 15px 25px;
+  border: 1px solid var(--border);
+}
+
+.search-bar h4 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.search-bar input {
+  background: transparent;
+  border: 1px solid #fff !important;
+  color: #fff;
+  border-radius: 0;
+}
+
+.search-bar input:focus {
+  border: 1px solid #fff;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+  color: #fff;
+}
+
+.search-bar input::placeholder {
+  color: var(--background-color);
+}
+
+/* Filter Wrap End */
+
+/* Course Listing End */

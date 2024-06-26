@@ -195,4 +195,50 @@
   background: transparent;
   border: 1px solid var(--background-color);
 }
+
+/* Tablet Responsive */
+@media (min-width: 768px) and (max-width: 850px) {
+  .instructor-section {
+    padding: 50px 0;
+  }
+
+  .ins-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ins-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Mobile Responsive  */
+@media (min-width: 360px) and (max-width: 767px) {
+  .instructor-section {
+    padding: 50px 0;
+  }
+
+  .ins-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ins-heading h2 {
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .ins-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /* Instructors Section End */
