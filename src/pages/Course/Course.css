@@ -81,6 +81,44 @@
   color: var(--background-color);
 }
 
+/* Category Wrapper Start */
+.category-wrapper {
+  padding: 15px 25px;
+  border: 1px solid var(--border);
+}
+
+.category-wrapper h4 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.category-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.category-list ul li {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  transition: all 0.3s ease-in-out;
+}
+
+.category-list ul li:hover {
+  background: #5f2ded;
+}
+
+.category-list ul li span {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
 /* Filter Wrap End */
 
 /* Course Listing End */

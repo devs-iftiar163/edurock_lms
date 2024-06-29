@@ -46,6 +46,7 @@ const CourseListings = () => {
             {/* Left Filter Tabs */}
             <div className="col-lg-3">
               <div className="filter-wrap">
+                {/* Search bar */}
                 <div className="search-bar">
                   <h4>Search here</h4>
                   <div className="mb-3">
@@ -54,6 +55,60 @@ const CourseListings = () => {
                       className="form-control"
                       placeholder="Search Course"
                     />
+                  </div>
+                </div>
+
+                {/* Category Bar */}
+                <div className="category-wrapper mt-3">
+                  <h4>Category</h4>
+                  <div className="category-list">
+                    <ul>
+                      <li>
+                        <input
+                          type="checkbox"
+                          className="checkbox-design"
+                          name=""
+                          id=""
+                        />
+                        <span>Artificial</span>
+                      </li>
+                      <li>
+                        <input
+                          type="checkbox"
+                          className="checkbox-design"
+                          name=""
+                          id=""
+                        />
+                        <span>Artificial</span>
+                      </li>
+                      <li>
+                        <input
+                          type="checkbox"
+                          className="checkbox-design"
+                          name=""
+                          id=""
+                        />
+                        <span>Artificial</span>
+                      </li>
+                      <li>
+                        <input
+                          type="checkbox"
+                          className="checkbox-design"
+                          name=""
+                          id=""
+                        />
+                        <span>Artificial</span>
+                      </li>
+                      <li>
+                        <input
+                          type="checkbox"
+                          className="checkbox-design"
+                          name=""
+                          id=""
+                        />
+                        <span>Artificial</span>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
