@@ -119,6 +119,45 @@
   font-weight: 500;
 }
 
+/* Course Tag Start*/
+
+.course-tag-wrapper {
+  padding: 15px 25px;
+  border: 1px solid var(--border);
+}
+
+.course-tag-wrapper h4 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.tag-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tag-list ul li {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  transition: all 0.3s ease-in-out;
+}
+
+.tag-list ul li:hover {
+  background: #5f2ded;
+}
+
+.tag-list ul li span {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
 /* Filter Wrap End */
 
 /* Course Listing End */

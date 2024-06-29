@@ -70,7 +70,7 @@ const CourseListings = () => {
                           name=""
                           id=""
                         />
-                        <span>Artificial</span>
+                        <span>Mobile Handset</span>
                       </li>
                       <li>
                         <input
@@ -79,7 +79,7 @@ const CourseListings = () => {
                           name=""
                           id=""
                         />
-                        <span>Artificial</span>
+                        <span>Americano Dish</span>
                       </li>
                       <li>
                         <input
@@ -88,7 +88,7 @@ const CourseListings = () => {
                           name=""
                           id=""
                         />
-                        <span>Artificial</span>
+                        <span>Fresh Vegitable</span>
                       </li>
                       <li>
                         <input
@@ -97,7 +97,7 @@ const CourseListings = () => {
                           name=""
                           id=""
                         />
-                        <span>Artificial</span>
+                        <span>Fruits</span>
                       </li>
                       <li>
                         <input
@@ -106,7 +106,61 @@ const CourseListings = () => {
                           name=""
                           id=""
                         />
-                        <span>Artificial</span>
+                        <span>Raxila Dish nonyte</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* Course Tag */}
+                <div className="course-tag-wrapper mt-3">
+                  <h4>Tags</h4>
+                  <div className="tag-list">
+                    <ul>
+                      <li>
+                        <input
+                          type="checkbox"
+                          className="checkbox-design"
+                          name=""
+                          id=""
+                        />
+                        <span>Mechanic</span>
+                      </li>
+                      <li>
+                        <input
+                          type="checkbox"
+                          className="checkbox-design"
+                          name=""
+                          id=""
+                        />
+                        <span>English</span>
+                      </li>
+                      <li>
+                        <input
+                          type="checkbox"
+                          className="checkbox-design"
+                          name=""
+                          id=""
+                        />
+                        <span>Computer Science</span>
+                      </li>
+                      <li>
+                        <input
+                          type="checkbox"
+                          className="checkbox-design"
+                          name=""
+                          id=""
+                        />
+                        <span>Data & Tech</span>
+                      </li>
+                      <li>
+                        <input
+                          type="checkbox"
+                          className="checkbox-design"
+                          name=""
+                          id=""
+                        />
+                        <span>UI/UX Design</span>
                       </li>
                     </ul>
                   </div>
