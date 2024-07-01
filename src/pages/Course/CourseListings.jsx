@@ -1,6 +1,26 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const CourseListings = () => {
+  const [input, setInput] = useState(50);
+  const [increaseMessage, setIncreaseMessage] = useState(50);
+  const [decreaseMessage, setDecreaseMessage] = useState(5000);
+
+  const setRangevalue = (e) => {
+    const currentValue = parseInt(e.target.value, 10);
+
+    if (currentValue > input) {
+      setIncreaseMessage(`Increased Value: ${currentValue}`);
+      setDecreaseValue(decreaseValue);
+    } else if (currentValue < previousValue) {
+      setDecreaseMessage(`Decreased Value: ${currentValue}`);
+      setIncreaseValue(increaseValue);
+    }
+
+    input(currentValue);
+    setInput(currentValue);
+  };
+
   return (
     <>
       {/* Course Listing Section */}
@@ -163,6 +183,26 @@ const CourseListings = () => {
                         <span>UI/UX Design</span>
                       </li>
                     </ul>
+                  </div>
+                </div>
+
+                {/* Price Range */}
+                <div className="price-range mt-3">
+                  <h4>Tags</h4>
+                  <div className="range-filter">
+                    <input
+                      type="range"
+                      className="range-value"
+                      id="rangeInput"
+                      min="1"
+                      max="5000"
+                      value={input.value}
+                      onChange={setRangevalue}
+                    />
+                  </div>
+                  <div className="value-name">
+                    <h4 id="decrease">${increaseMessage}</h4>
+                    <h4 id="increase">${decreaseMessage}</h4>
                   </div>
                 </div>
               </div>
