@@ -207,4 +207,115 @@
 
 /* Filter Wrap End */
 
+/* Course Grid Start */
+.course-grid {
+}
+
+.course-card {
+  background: #17093e;
+  padding: 15px;
+  box-shadow: 0 0 20px 10px rgba(95, 45, 237, 0.1);
+}
+
+.course-feature-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.course-feature-image img {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.course-feature-image img:hover {
+  transform: scale(1.1);
+}
+
+.course-category-one {
+  background: #f2277e;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 90px;
+}
+
+.course-category-one p {
+  font-size: 12px;
+}
+
+.course-lesson ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-lesson ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.course-lesson ul li p {
+  font-size: 14px;
+}
+
+.course-lesson ul li i {
+  color: var(--background-color);
+}
+
+.course-heading h2 {
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+}
+
+.course-heading h2:hover {
+  color: var(--background-color);
+}
+
+.course-price ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-price ul li .price-tag {
+  font-size: 18px;
+  color: #5f2ded;
+  font-weight: 600;
+}
+
+.course-price ul li .details {
+  color: #f2277e;
+}
+
+.border-box {
+  margin: 10px 0;
+  height: 1px;
+  background: #fff;
+}
+
+.course-review img {
+  width: 12%;
+  border-radius: 100%;
+}
+
+.course-review ul li p {
+  font-size: 14px;
+}
+
+.course-review ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Course Grid End */
+
 /* Course Listing End */
