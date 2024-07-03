@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import featureImage from "../../../public/grid_1_01.png";
 import userImg from "../../../public/grid_small_1.jpg";
+import userImgTwo from "../../../public/grid_4_4.png";
+import userImgThree from "../../../public/grid_6_6.png";
 
 const CourseListings = () => {
   const [input, setInput] = useState(0);
@@ -212,7 +214,7 @@ const CourseListings = () => {
             {/* Right Grid Tab */}
             <div className="col-lg-9 course-grid">
               {/* Course Grid */}
-              <div className="row">
+              <div className="row row-gap">
                 {/* Course Card */}
                 <div className="col-lg-4">
                   <div className="course-card">
@@ -268,10 +270,10 @@ const CourseListings = () => {
                   <div className="course-card">
                     <div className="course-feature-image">
                       <Link>
-                        <img src={featureImage} alt="" />
+                        <img src={userImgTwo} alt="" />
                       </Link>
-                      <div className="course-category-one">
-                        <p>Data & Tech</p>
+                      <div className="course-category-two">
+                        <p>Mechanical</p>
                       </div>
                     </div>
                     <div className="course-lesson mt-2">
@@ -288,7 +290,57 @@ const CourseListings = () => {
                     </div>
                     <div className="course-heading mt-2">
                       <Link>
-                        <h2>Foundation course to under stand about softwere</h2>
+                        <h2>Nidnies course to under stand about softwere</h2>
+                      </Link>
+                    </div>
+                    {/* Course Price */}
+                    <div className="course-price">
+                      <ul>
+                        <li>
+                          <p className="price-tag">$32.00</p>
+                        </li>
+                        <li>
+                          <p className="details">Free</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="border-box"></div>
+                    {/* Teacher & Course Info */}
+                    <div className="course-review">
+                      <ul>
+                        <li>
+                          <img src={userImg} alt="Tutor" />
+                          <p>Micle Jhon</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4">
+                  <div className="course-card">
+                    <div className="course-feature-image">
+                      <Link>
+                        <img src={userImgThree} alt="" />
+                      </Link>
+                      <div className="course-category-three">
+                        <p>Ui & UX Design</p>
+                      </div>
+                    </div>
+                    <div className="course-lesson mt-2">
+                      <ul>
+                        <li>
+                          <i className="fa-solid fa-book"></i>
+                          <p>23 Lesson</p>
+                        </li>
+                        <li>
+                          <i className="fa-regular fa-clock"></i>
+                          <p> 1 hr 30 min</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="course-heading mt-2">
+                      <Link>
+                        <h2>Design course to under stand about solution</h2>
                       </Link>
                     </div>
                     {/* Course Price */}
@@ -362,6 +414,275 @@ const CourseListings = () => {
                         </li>
                       </ul>
                     </div>
+                  </div>
+                </div>
+                <div className="col-lg-4">
+                  <div className="course-card">
+                    <div className="course-feature-image">
+                      <Link>
+                        <img src={userImgTwo} alt="" />
+                      </Link>
+                      <div className="course-category-two">
+                        <p>Mechanical</p>
+                      </div>
+                    </div>
+                    <div className="course-lesson mt-2">
+                      <ul>
+                        <li>
+                          <i className="fa-solid fa-book"></i>
+                          <p>23 Lesson</p>
+                        </li>
+                        <li>
+                          <i className="fa-regular fa-clock"></i>
+                          <p> 1 hr 30 min</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="course-heading mt-2">
+                      <Link>
+                        <h2>Nidnies course to under stand about softwere</h2>
+                      </Link>
+                    </div>
+                    {/* Course Price */}
+                    <div className="course-price">
+                      <ul>
+                        <li>
+                          <p className="price-tag">$32.00</p>
+                        </li>
+                        <li>
+                          <p className="details">Free</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="border-box"></div>
+                    {/* Teacher & Course Info */}
+                    <div className="course-review">
+                      <ul>
+                        <li>
+                          <img src={userImg} alt="Tutor" />
+                          <p>Micle Jhon</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4">
+                  <div className="course-card">
+                    <div className="course-feature-image">
+                      <Link>
+                        <img src={userImgThree} alt="" />
+                      </Link>
+                      <div className="course-category-three">
+                        <p>Ui & UX Design</p>
+                      </div>
+                    </div>
+                    <div className="course-lesson mt-2">
+                      <ul>
+                        <li>
+                          <i className="fa-solid fa-book"></i>
+                          <p>23 Lesson</p>
+                        </li>
+                        <li>
+                          <i className="fa-regular fa-clock"></i>
+                          <p> 1 hr 30 min</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="course-heading mt-2">
+                      <Link>
+                        <h2>Design course to under stand about solution</h2>
+                      </Link>
+                    </div>
+                    {/* Course Price */}
+                    <div className="course-price">
+                      <ul>
+                        <li>
+                          <p className="price-tag">$32.00</p>
+                        </li>
+                        <li>
+                          <p className="details">Free</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="border-box"></div>
+                    {/* Teacher & Course Info */}
+                    <div className="course-review">
+                      <ul>
+                        <li>
+                          <img src={userImg} alt="Tutor" />
+                          <p>Micle Jhon</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4">
+                  <div className="course-card">
+                    <div className="course-feature-image">
+                      <Link>
+                        <img src={featureImage} alt="" />
+                      </Link>
+                      <div className="course-category-one">
+                        <p>Data & Tech</p>
+                      </div>
+                    </div>
+                    <div className="course-lesson mt-2">
+                      <ul>
+                        <li>
+                          <i className="fa-solid fa-book"></i>
+                          <p>23 Lesson</p>
+                        </li>
+                        <li>
+                          <i className="fa-regular fa-clock"></i>
+                          <p> 1 hr 30 min</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="course-heading mt-2">
+                      <Link>
+                        <h2>Foundation course to under stand about softwere</h2>
+                      </Link>
+                    </div>
+                    {/* Course Price */}
+                    <div className="course-price">
+                      <ul>
+                        <li>
+                          <p className="price-tag">$32.00</p>
+                        </li>
+                        <li>
+                          <p className="details">Free</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="border-box"></div>
+                    {/* Teacher & Course Info */}
+                    <div className="course-review">
+                      <ul>
+                        <li>
+                          <img src={userImg} alt="Tutor" />
+                          <p>Micle Jhon</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4">
+                  <div className="course-card">
+                    <div className="course-feature-image">
+                      <Link>
+                        <img src={userImgTwo} alt="" />
+                      </Link>
+                      <div className="course-category-two">
+                        <p>Mechanical</p>
+                      </div>
+                    </div>
+                    <div className="course-lesson mt-2">
+                      <ul>
+                        <li>
+                          <i className="fa-solid fa-book"></i>
+                          <p>23 Lesson</p>
+                        </li>
+                        <li>
+                          <i className="fa-regular fa-clock"></i>
+                          <p> 1 hr 30 min</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="course-heading mt-2">
+                      <Link>
+                        <h2>Nidnies course to under stand about softwere</h2>
+                      </Link>
+                    </div>
+                    {/* Course Price */}
+                    <div className="course-price">
+                      <ul>
+                        <li>
+                          <p className="price-tag">$32.00</p>
+                        </li>
+                        <li>
+                          <p className="details">Free</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="border-box"></div>
+                    {/* Teacher & Course Info */}
+                    <div className="course-review">
+                      <ul>
+                        <li>
+                          <img src={userImg} alt="Tutor" />
+                          <p>Micle Jhon</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4">
+                  <div className="course-card">
+                    <div className="course-feature-image">
+                      <Link>
+                        <img src={userImgThree} alt="" />
+                      </Link>
+                      <div className="course-category-three">
+                        <p>Ui & UX Design</p>
+                      </div>
+                    </div>
+                    <div className="course-lesson mt-2">
+                      <ul>
+                        <li>
+                          <i className="fa-solid fa-book"></i>
+                          <p>23 Lesson</p>
+                        </li>
+                        <li>
+                          <i className="fa-regular fa-clock"></i>
+                          <p> 1 hr 30 min</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="course-heading mt-2">
+                      <Link>
+                        <h2>Design course to under stand about solution</h2>
+                      </Link>
+                    </div>
+                    {/* Course Price */}
+                    <div className="course-price">
+                      <ul>
+                        <li>
+                          <p className="price-tag">$32.00</p>
+                        </li>
+                        <li>
+                          <p className="details">Free</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="border-box"></div>
+                    {/* Teacher & Course Info */}
+                    <div className="course-review">
+                      <ul>
+                        <li>
+                          <img src={userImg} alt="Tutor" />
+                          <p>Micle Jhon</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Pagination */}
+              <div className="row mt-5">
+                <div className="col-lg-12">
+                  <div className="pagination-wrap">
+                    <ul>
+                      <li>
+                        <i class="fa-solid fa-chevron-left"></i>
+                      </li>
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                      <li>4</li>
+                      <li>
+                        <i className="fa-solid fa-chevron-right"></i>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>

@@ -316,6 +316,67 @@
   gap: 10px;
 }
 
+.course-category-two {
+  background: #2864ff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 90px;
+}
+
+.course-category-two p {
+  font-size: 12px;
+}
+
+.course-category-three {
+  background: #1ec902;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 90px;
+}
+
+.course-category-three p {
+  font-size: 12px;
+}
+
+.row-gap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 25px;
+}
+
+.pagination-wrap ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.pagination-wrap ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  background: #312a57;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.pagination-wrap ul li:hover {
+  background: #5f2ded;
+}
+
 /* Course Grid End */
 
 /* Course Listing End */
