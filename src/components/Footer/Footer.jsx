@@ -20,13 +20,13 @@ const Footer = () => {
                 </p>
               </div>
               <div className="opening-hours">
-                <div className="row">
-                  <div className="col-lg-3 box-content">
+                <div className="row custom-margins">
+                  <div className="col-lg-3 col-md-2 col-sm-3 box-content">
                     <div className="box-icon">
                       <i className="fa-regular fa-clock"></i>
                     </div>
                   </div>
-                  <div className="col-lg-8">
+                  <div className="col-lg-8 col-md-8 col-sm-8">
                     <div className="opening-content">
                       <h2>OPENING HOURES</h2>
                       <ul>
@@ -39,10 +39,10 @@ const Footer = () => {
               </div>
             </div>
             {/* Site Map */}
-            <div className="col-lg-8">
+            <div className="col-lg-8 col-md-12 col-sm-8">
               <div className="row">
                 {/* Course */}
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-md-4 col-sm-4">
                   <div className="list-item-design">
                     <h2>Course</h2>
                     <ul>
@@ -65,7 +65,7 @@ const Footer = () => {
                   </div>
                 </div>
                 {/* Useful Link */}
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-md-4 col-sm-4">
                   <div className="list-item-design">
                     <h2>Useful Links</h2>
                     <ul>
@@ -88,7 +88,7 @@ const Footer = () => {
                   </div>
                 </div>
                 {/* Contact Info */}
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-md-4 col-sm-4">
                   <div className="list-item-contact">
                     <h2>Contact</h2>
                     <ul>
@@ -125,12 +125,12 @@ const Footer = () => {
           {/* Bottom Footer */}
           <div className="row py-5">
             {/* Logo */}
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-3 col-sm-3">
               <div className="footer-logo">
                 <img src={footerLogo} alt="" />
               </div>
             </div>
-            <div className="col-lg-5 d-flex align-items-center">
+            <div className="col-lg-5 col-md-5 col-sm-5 d-flex align-items-center">
               <div className="reserved align-items-center">
                 <p>Copyright © 2024 by edurock. All Rights Reserved.</p>
               </div>

@@ -191,4 +191,16 @@
   .contact-media-wrapper input {
     width: 100%;
   }
+
+  .gap-between-cols {
+    gap: 20px;
+  }
+
+  .support-heading h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .support-heading p {
+    width: 100%;
+  }
 }

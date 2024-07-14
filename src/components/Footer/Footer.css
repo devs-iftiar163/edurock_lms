@@ -157,3 +157,18 @@ footer {
 .border-top {
   border-top: 1px solid #fff;
 }
+
+/* Tablet Responsive */
+@media (min-width: 768px) and (max-width: 850px) {
+  footer {
+    background: var(--dark-blue);
+    padding: 0;
+  }
+  .custom-margins {
+    margin: 15px 0 !important;
+  }
+}
+
+/* Mobile Responsive  */
+@media (min-width: 360px) and (max-width: 767px) {
+}

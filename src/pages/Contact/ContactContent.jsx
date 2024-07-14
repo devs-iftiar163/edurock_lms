@@ -83,7 +83,7 @@ const ContactContent = () => {
           </div>
 
           {/* Support Info Details */}
-          <div className="row mt-5">
+          <div className="row mt-5 gap-between-cols">
             <div className="col-lg-4 col-md-4 col-sm-6">
               {/* Support Card */}
               <div className="support-card">
@@ -106,7 +106,7 @@ const ContactContent = () => {
                   <img src={contactSupport} alt="" />
                 </div>
                 <div className="support-content">
-                  <h4>Office Address</h4>
+                  <h4>24/7 Support</h4>
                   <p>
                     our worldwide annual spend on digital advertising surpassing
                     billion, it’s no surprise that different apches to online
@@ -121,7 +121,7 @@ const ContactContent = () => {
                   <img src={mediaSupport} alt="" />
                 </div>
                 <div className="support-content">
-                  <h4>Office Address</h4>
+                  <h4>Media & Technology</h4>
                   <p>
                     our worldwide annual spend on digital advertising surpassing
                     billion, it’s no surprise that different apches to online

@@ -15,7 +15,7 @@ const Header = () => {
                   {/* Logo Area */}
                   <div className="col-lg-3 justify-content-center">
                     <div className="logo">
-                      <Link to={"#"}>
+                      <Link to={"/"}>
                         <img src={logo} alt="Logo" />
                       </Link>
                     </div>
