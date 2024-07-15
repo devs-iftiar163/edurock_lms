@@ -18,7 +18,7 @@ const Service = () => {
                   form systems organizations, and comes from Latin Construction
                   is
                 </p>
-                <p className="para-tow">
+                <p className="para-tow mt-3">
                   Construction is a general term meaning the art and science to
                   form systems organizations, and comes from Latin Construction
                   is a organizations, and comes from Latin construction and Old

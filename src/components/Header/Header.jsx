@@ -50,7 +50,7 @@ const Header = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link to={"#"} className="user-login">
+                          <Link to={"login-register"} className="user-login">
                             <i className="fa-solid fa-user"></i>
                           </Link>
                         </li>
