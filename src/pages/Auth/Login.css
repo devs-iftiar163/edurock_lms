@@ -81,4 +81,36 @@
   color: #fff;
   line-height: 36px;
 }
+
+.auth-tablet {
+  width: 600px;
+}
 /* Auth Tab Design End */
+
+/* Login Tab Design Start */
+.login-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-fields label {
+  font-size: 16px;
+  color: #fff;
+  line-height: 29px;
+  font-weight: 400;
+}
+
+.login-fields .text-fields {
+  background-color: transparent;
+  border: 1px solid var(--border);
+  font-size: 14px;
+  font-weight: 400;
+  height: 52px;
+  padding: 3px 20px;
+  width: 100%;
+  border-radius: 5px;
+  color: #fff;
+}
+/* Login Tab Design End */

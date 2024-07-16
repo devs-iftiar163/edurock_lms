@@ -21,9 +21,11 @@ const AuthTab = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <Outlet />
+          <div className="row mt-5">
+            <div className="col-lg-12 d-flex justify-content-center">
+              <div className="auth-tablet">
+                <Outlet />
+              </div>
             </div>
           </div>
         </div>
